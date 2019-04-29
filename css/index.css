@@ -233,19 +233,18 @@ main {
 
 /* Top section */
 .top-section {
+  display: flex;
   width: 100%;
   margin-top: 35px;
 }
 .top-section article {
-  display: inline-block;
-  width: 50%;
-  margin-right: -4px;
+  flex: 1;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
 .top-section article:not(:first-child) {
-  padding-left: 35px;
+  margin-left: 35px;
 }
 .middle-img {
   margin-top: 35px;
@@ -254,15 +253,14 @@ main {
 
 /* Bottom section */
 .bottom-section {
+  display: flex;
   margin-top: 35px;
   padding-bottom: 30px;
   border-bottom: 1px solid gray;
 }
 
 .bottom-section article {
-  width: 33.3%;
-  margin-right: -4px;
-  display: inline-block;
+  flex: 1;
 }
 
 .bottom-section article:not(:first-child) {
