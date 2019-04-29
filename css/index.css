@@ -171,7 +171,7 @@ h5 {
   text-decoration: none;
   color: #c0c0c0;
   display: block;
-  padding: 30px 25px;
+  padding: 2rem 1.5rem;
   margin: 0px;
   height: 100%;
 }
@@ -181,7 +181,7 @@ h5 {
   text-align: right;
 }
 .nav-bar .logo-div .logo {
-  padding-top: 20px;
+  padding-top: 1.25rem;
 }
 
 /* Main */
@@ -200,7 +200,7 @@ main {
 }
 .main-header .intro {
   flex: 1;
-  padding-top: 70px;
+  padding-top: 4rem;
 }
 
 .main-header .intro span {
@@ -208,24 +208,24 @@ main {
 }
 
 .main-header .intro .intro-text {
-  font-size: 5em;
+  font-size: 5rem;
   font-family: "Bangers", cursive;
   text-align: center;
-  padding-left: 30px;
+  padding-left: 2rem;
 }
 
 .main-header .intro-image-div {
   flex: 1;
   text-align: center;
-  padding: 30px;
+  padding: 2rem;
 }
 
 .main-header .intro-btn {
-  padding: 10px 30px;
-  width: 180px;
+  padding: 0.6rem 2rem;
+  width: 11.25rem;
   text-align: center;
-  margin-left: calc(50% - 70px);
-  margin-top: 10px;
+  margin-left: calc(50% - 5.5rem);
+  margin-top: 0.6rem;
   background: transparent;
   border: 1px solid gray;
 }
@@ -234,27 +234,27 @@ main {
 .top-section {
   display: flex;
   width: 100%;
-  margin-top: 35px;
+  margin-top: 2.1rem;
 }
 .top-section article {
   flex: 1;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
 }
 
 .top-section article:not(:first-child) {
-  margin-left: 35px;
+  margin-left: 2.1rem;
 }
 .middle-img {
-  margin-top: 35px;
+  margin-top: 2.1rem;
   width: 100%;
 }
 
 /* Bottom section */
 .bottom-section {
   display: flex;
-  margin-top: 35px;
-  padding-bottom: 30px;
+  margin-top: 2.1rem;
+  padding-bottom: 2.1rem;
   border-bottom: 2px solid black;
 }
 
@@ -263,22 +263,22 @@ main {
 }
 
 .bottom-section article:not(:first-child) {
-  padding-left: 35px;
+  padding-left: 2.1rem;
 }
 
 /* Contact */
 
 .contact {
-  margin-top: 35px;
+  margin-top: 2.1rem;
 }
 .contact p {
-  margin: 15px auto;
+  margin: 1rem auto;
 }
 
 /* Footer */
 footer {
-  padding: 50px;
-  padding-bottom: 100px;
+  padding: 3.1rem;
+  padding-bottom: 6rem;
   text-align: center;
 }
 
@@ -326,7 +326,7 @@ footer {
     text-align: center;
   }
   .nav-bar .logo-div {
-    padding-bottom: 20px;
+    padding-bottom: 1.3rem;
     border-bottom: 1px solid black;
   }
 
@@ -335,7 +335,7 @@ footer {
     flex-direction: column;
   }
   .top-section article {
-    margin-top: 30px;
+    margin-top: 2rem;
   }
   .top-section article:not(:first-child) {
     margin-left: 0px;
@@ -346,7 +346,7 @@ footer {
   }
 
   .bottom-section article {
-    margin-top: 30px;
+    margin-top: 2rem;
   }
 
   .bottom-section article:not(:first-child) {
