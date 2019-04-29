@@ -154,14 +154,13 @@ h5 {
 .nav-bar {
   display: flex;
   width: 70%;
-  height: 80px;
+  height: auto;
   margin: 0px auto;
 }
 
 .nav-bar .nav-menu {
   flex: 7;
   display: flex;
-  height: 100%;
   color: rgb(204, 204, 204);
 }
 .nav-bar .nav-menu li {
@@ -256,7 +255,7 @@ main {
   display: flex;
   margin-top: 35px;
   padding-bottom: 30px;
-  border-bottom: 1px solid gray;
+  border-bottom: 2px solid black;
 }
 
 .bottom-section article {
@@ -315,4 +314,42 @@ footer {
 }
 
 @media (max-width: 500px) {
+  /* Navbar */
+  .nav-bar {
+    width: 100%;
+  }
+  .nav-bar .nav-menu {
+    flex-direction: column;
+  }
+  .nav-bar .nav-menu li a {
+    border-bottom: 1px solid black;
+    text-align: center;
+  }
+  .nav-bar .logo-div {
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+  }
+
+  /* Top section */
+  .top-section {
+    flex-direction: column;
+  }
+  .top-section article {
+    margin-top: 30px;
+  }
+  .top-section article:not(:first-child) {
+    margin-left: 0px;
+  }
+  /* Bottom section */
+  .bottom-section {
+    flex-direction: column;
+  }
+
+  .bottom-section article {
+    margin-top: 30px;
+  }
+
+  .bottom-section article:not(:first-child) {
+    padding-left: 0px;
+  }
 }
