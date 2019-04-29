@@ -81,12 +81,31 @@
   /* Services Body */
   .services-body div article {
     padding: 15px;
-    padding-bottom: 25px;
+    padding-bottom: 1.5rem;
   }
   .services-body div article:not(:first-child) {
-    margin-left: 1.2em;
+    margin-left: 1.2rem;
   }
 }
 
 @media (max-width: 500px) {
+  .services-header .services-header-img {
+    margin-top: 3rem;
+  }
+  /* Services Body */
+  .services-body {
+    margin: 35px auto;
+    padding-bottom: 30px;
+  }
+  .services-body div {
+    flex-direction: column;
+    margin-bottom: 5px;
+  }
+  .services-body div article {
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .services-body div article:not(:first-child) {
+    margin-left: 0px;
+  }
 }
