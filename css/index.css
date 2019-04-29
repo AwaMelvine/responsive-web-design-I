@@ -152,14 +152,14 @@ h5 {
 /* Your code starts here! */
 /* NavBar */
 .nav-bar {
-  width: 80%;
+  display: flex;
+  width: 70%;
   height: 80px;
   margin: 0px auto;
 }
 
 .nav-bar .nav-menu {
-  display: inline-block;
-  width: 70%;
+  flex: 7;
   height: 100%;
   color: rgb(204, 204, 204);
 }
@@ -178,33 +178,30 @@ h5 {
 }
 
 .nav-bar .logo-div {
-  width: 30%;
-  display: inline-block;
-  margin-right: -4px;
+  flex: 3;
+  text-align: right;
 }
 .nav-bar .logo-div .logo {
-  display: block;
-  margin: 0px auto;
-  height: 100%;
-  line-height: 2em;
+  padding-top: 20px;
 }
 
 /* Main */
 main {
-  margin: 0px 8em;
+  width: 70%;
+  margin: 0px auto;
 }
 
 /* HEADER */
 
 .main-header {
   width: 100%;
-  border-bottom: 1px solid gray;
-  padding-bottom: 100px;
+  border-bottom: 2px solid black;
+  display: flex;
+  padding-bottom: 50px;
 }
 .main-header .intro {
-  display: inline-block;
-  width: 50%;
-  margin-right: -4px;
+  flex: 1;
+  padding-top: 70px;
 }
 
 .main-header .intro span {
@@ -219,11 +216,9 @@ main {
 }
 
 .main-header .intro-image-div {
-  display: inline-block;
-  width: 50%;
+  flex: 1;
   text-align: center;
   padding: 30px;
-  margin-right: -4px;
 }
 
 .main-header .intro-btn {
@@ -292,6 +287,13 @@ footer {
 
 /* Media Queries */
 @media (max-width: 800px) {
+  .main-header .intro {
+    width: 50%;
+  }
+
+  .main-header .intro-image-div {
+    display: none;
+  }
 }
 
 @media (max-width: 500px) {
