@@ -160,13 +160,13 @@ h5 {
 
 .nav-bar .nav-menu {
   flex: 7;
+  display: flex;
   height: 100%;
   color: rgb(204, 204, 204);
 }
 .nav-bar .nav-menu li {
-  display: inline-block;
   height: 100%;
-  margin-right: -4px;
+  flex: 1;
 }
 .nav-bar .nav-menu li a {
   text-decoration: none;
@@ -285,6 +285,26 @@ footer {
 
 /* Media Queries */
 @media (max-width: 800px) {
+  main {
+    width: 90%;
+    margin: 0px auto;
+  }
+  .nav-bar {
+    width: 90%;
+  }
+  .nav-bar {
+    flex-direction: column-reverse;
+  }
+
+  .nav-bar .nav-menu {
+    flex: 1;
+  }
+
+  .nav-bar .logo-div {
+    flex: 1;
+    text-align: center;
+  }
+
   .main-header .intro {
     width: 50%;
   }
