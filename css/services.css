@@ -108,4 +108,23 @@
   .services-body div article:not(:first-child) {
     margin-left: 0px;
   }
+
+  /* Services Footer */
+  .services-footer {
+    flex-direction: column-reverse;
+  }
+  .services-footer article {
+    margin-top: 2rem;
+  }
+  .services-footer article ul {
+    list-style-type: square;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  .services-footer article ul li {
+    margin: 10px auto;
+  }
+  .services-footer .services-info-img {
+    margin-left: 0px;
+  }
 }
