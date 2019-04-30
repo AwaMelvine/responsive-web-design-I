@@ -1,0 +1,130 @@
+/* SERVICES PAGE */
+/* Services Header */
+.services-header {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+}
+
+.services-header .services-header-img {
+  flex: 1;
+}
+.services-header .services-section {
+  flex: 1;
+  padding: 2rem 0rem 2.2rem 0rem;
+  text-align: justify;
+}
+
+.services-header .services-section h2 {
+  font-size: 1.5rem;
+}
+
+/* Services Body */
+.services-body {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid black;
+  margin: 2.1rem auto;
+  padding-bottom: 1.8rem;
+}
+.services-body div {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2.1rem;
+}
+.services-body div article {
+  padding: 1.25rem;
+  background: #f4f3f4;
+  border: 1px solid black;
+  padding-bottom: 1.8rem;
+}
+.services-body div article:not(:first-child) {
+  margin-left: 3em;
+}
+
+.services-body div article p {
+  margin-bottom: 1.25rem;
+}
+
+.services-body div article .learn-more-btn {
+  text-decoration: none;
+  color: #444;
+  background: white;
+  padding: 5px 1.25rem;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+/* Services Footer */
+.services-footer {
+  display: flex;
+}
+.services-footer article {
+  flex: 2;
+}
+.services-footer article ul {
+  list-style-type: square;
+  margin-top: 2.25rem;
+  margin-left: 1.25rem;
+}
+.services-footer article ul li {
+  margin: 0.8rem auto;
+}
+.services-footer .services-info-img {
+  margin-left: 1.8rem;
+  flex: 1;
+}
+
+/* Media Queries */
+@media (max-width: 800px) {
+  /* Services Body */
+  .services-body div article {
+    padding: 15px;
+    padding-bottom: 1.5rem;
+  }
+  .services-body div article:not(:first-child) {
+    margin-left: 1.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .services-header .services-header-img {
+    margin-top: 3rem;
+  }
+  /* Services Body */
+  .services-body {
+    margin: 2.1rem auto;
+    padding-bottom: 1.8rem;
+  }
+  .services-body div {
+    flex-direction: column;
+    margin-bottom: 5px;
+  }
+  .services-body div article {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+  }
+  .services-body div article:not(:first-child) {
+    margin-left: 0px;
+  }
+
+  /* Services Footer */
+  .services-footer {
+    flex-direction: column-reverse;
+  }
+  .services-footer article {
+    margin-top: 2rem;
+  }
+  .services-footer article ul {
+    list-style-type: square;
+    margin-top: 2.25rem;
+    margin-left: 1.25rem;
+  }
+  .services-footer article ul li {
+    margin: 0.8rem auto;
+  }
+  .services-footer .services-info-img {
+    margin-left: 0px;
+  }
+}
